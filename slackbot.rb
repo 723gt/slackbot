@@ -2,7 +2,6 @@
 
 require 'slack'
 require 'json'
-#TOKEN = 'xoxb-143472026245-Yu2SJ0KRfJdx6uyE1WS1p89v'
 token = nil
 File.open("token.json") do |file|
   token = JSON.load(file)
